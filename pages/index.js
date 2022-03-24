@@ -19,9 +19,6 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">My First App.</a>
         </h1>
-        <div className={styles.grid}>
-          <img src="https://placekitten.com/200/200"></img>
-        </div>
         <div> 
         <Link href="/boiler">Go to Boiler</Link>
         <br></br>

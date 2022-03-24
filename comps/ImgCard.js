@@ -16,12 +16,6 @@ export default function ImgCard({
     tcl="#FFF",
     children=null
 }) {
-    /* is equal to saying const mystyle = { 
-        backgroundColor:"red"
-    }   style={{
-        backgroundColor:"red"
-    }}
-    */
     return <RedCont cl={bg} text_cl={tcl}>
         <img src={img} width="500px"  ></img>
         <Font>{text}</Font>
